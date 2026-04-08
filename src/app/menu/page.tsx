@@ -2,38 +2,38 @@ import MenuSection from "../components/MenuSection";
 
 // --- PIZZOR ---
 const pizzorKlass1 = [
-  { name: "Marghereta", description: "Tomatsås och ost", price: "135 kr", image: "/images/food_pics/pizza_class_1/marghereta.webp" },
-  { name: "Vesuvio", description: "Tomatsås, ost och skinka", price: "140 kr", image: "/images/food_pics/pizza_class_1/vesuvio.jpeg" },
-  { name: "Funghi", description: "Tomatsås, ost och färska champinjoner", price: "140 kr", image: "/images/food_pics/pizza_class_1/funghi.jpeg" },
-  { name: "Cacciatore", description: "Tomatsås, ost, salami och lök", price: "145 kr", image: "/images/food_pics/pizza_class_1/cacciatore.webp" },
-  { name: "Bolognese", description: "Tomatsås, ost, lök och köttfärssås", price: "145 kr", image: "/images/food_pics/pizza_class_1/bolognese.jpeg" },
-  { name: "Pompei", description: "Tomatsås, ost, bacon och lök", price: "145 kr", image: "/images/food_pics/pizza_class_1/pompei.webp" },
-  { name: "Napolitano", description: "Tomatsås, ost, sardeller och oliver", price: "145 kr", image: "/images/food_pics/pizza_class_1/napolitano.webp" },
-  { name: "Shako", description: "Tomatsås, ost och pepperonikorv", price: "145 kr", image: "/images/food_pics/pizza_class_1/shako.webp" },
-  { name: "Arin", description: "Tomatsås, ost, banan, ananas och curry", price: "145 kr", image: "/images/food_pics/pizza_class_1/arin.jpeg" },
+  { name: "Marghereta", description: "Tomatsås och ost", price: "135 kr", image: "/public/images/food_pics/pizza_class_1/marghereta.webp" },
+  { name: "Vesuvio", description: "Tomatsås, ost och skinka", price: "140 kr", image: "/public/images/food_pics/pizza_class_1/vesuvio.jpeg" },
+  { name: "Funghi", description: "Tomatsås, ost och färska champinjoner", price: "140 kr", image: "/public/images/food_pics/pizza_class_1/funghi.jpeg" },
+  { name: "Cacciatore", description: "Tomatsås, ost, salami och lök", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/cacciatore.webp" },
+  { name: "Bolognese", description: "Tomatsås, ost, lök och köttfärssås", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/bolognese.jpeg" },
+  { name: "Pompei", description: "Tomatsås, ost, bacon och lök", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/pompei.webp" },
+  { name: "Napolitano", description: "Tomatsås, ost, sardeller och oliver", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/napolitano.webp" },
+  { name: "Shako", description: "Tomatsås, ost och pepperonikorv", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/shako.webp" },
+  { name: "Arin", description: "Tomatsås, ost, banan, ananas och curry", price: "145 kr", image: "/public/images/food_pics/pizza_class_1/arin.jpeg" },
 ];
 
 const pizzorKlass2 = [
-  { name: "Capricciosa", description: "Tomatsås, ost, skinka och färska champinjoner", price: "145 kr", image: "/images/food_pics/pizza_class_2/capricciosa.jpeg" },
-  { name: "Americana", description: "Tomatsås, ost, köttfärs och färska champinjoner", price: "145 kr", image: "/images/food_pics/pizza_class_2/americana.jpeg" },
-  { name: "Hawaii", description: "Tomatsås, ost, skinka och ananas", price: "145 kr", image: "/images/food_pics/pizza_class_2/hawaii.jpeg" },
-  { name: "Marinara", description: "Tomatsås, ost, räkor och musslor", price: "150 kr", image: "/images/food_pics/pizza_class_2/marinara.webp" },
-  { name: "Del Opera", description: "Tomatsås, ost, skinka och tonfisk", price: "150 kr", image: "/images/food_pics/pizza_class_2/del_opera.webp" },
-  { name: "Paradiso", description: "Tomatsås, ost, champinjoner och räkor", price: "150 kr", image: "/images/food_pics/pizza_class_2/paradiso.jpeg" },
-  { name: "Vegetariana", description: "Tomatsås, ost, champinjoner, lök, oliver, kronärtskocka och paprika", price: "145 kr", image: "/images/food_pics/pizza_class_2/vegetariana.jpeg" },
-  { name: "Bussola", description: "Tomatsås, ost, skinka och räkor", price: "150 kr", image: "/images/food_pics/pizza_class_2/bussola.webp" },
-  { name: "Kycklingpizza", description: "Tomatsås, ost, kyckling, ananas och curry", price: "150 kr", image: "/images/food_pics/pizza_class_2/kycklingpizza.jpeg" },
+  { name: "Capricciosa", description: "Tomatsås, ost, skinka och färska champinjoner", price: "145 kr", image: "/public/images/food_pics/pizza_class_2/capricciosa.jpeg" },
+  { name: "Americana", description: "Tomatsås, ost, köttfärs och färska champinjoner", price: "145 kr", image: "/public/images/food_pics/pizza_class_2/americana.jpeg" },
+  { name: "Hawaii", description: "Tomatsås, ost, skinka och ananas", price: "145 kr", image: "/public/images/food_pics/pizza_class_2/hawaii.jpeg" },
+  { name: "Marinara", description: "Tomatsås, ost, räkor och musslor", price: "150 kr", image: "/public/images/food_pics/pizza_class_2/marinara.webp" },
+  { name: "Del Opera", description: "Tomatsås, ost, skinka och tonfisk", price: "150 kr", image: "/public/images/food_pics/pizza_class_2/del_opera.webp" },
+  { name: "Paradiso", description: "Tomatsås, ost, champinjoner och räkor", price: "150 kr", image: "/public/images/food_pics/pizza_class_2/paradiso.jpeg" },
+  { name: "Vegetariana", description: "Tomatsås, ost, champinjoner, lök, oliver, kronärtskocka och paprika", price: "145 kr", image: "/public/images/food_pics/pizza_class_2/vegetariana.jpeg" },
+  { name: "Bussola", description: "Tomatsås, ost, skinka och räkor", price: "150 kr", image: "/public/images/food_pics/pizza_class_2/bussola.webp" },
+  { name: "Kycklingpizza", description: "Tomatsås, ost, kyckling, ananas och curry", price: "150 kr", image: "/public/images/food_pics/pizza_class_2/kycklingpizza.jpeg" },
 ];
 
 const pizzorKlass3 = [
-  { name: "Tropicana", description: "Tomatsås, ost, skinka, ananas, banan och curry", price: "155 kr", image: "/images/food_pics/pizza_class_3/tropicana.jpeg" },
-  { name: "Gorgonzola", description: "Tomatsås, ost, skinka och gorgonzola", price: "155 kr", image: "/images/food_pics/pizza_class_3/gorgonzola.webp" },
-  { name: "Havets Special", description: "Tomatsås, ost och blandade skaldjur", price: "160 kr", image: "/images/food_pics/pizza_class_3/havets_special.jpeg" },
-  { name: "Kebab Pizza", description: "Tomatsås, ost, lök, feferoni, färska tomater, kebabkött och kebabsås", price: "155 kr", image: "/images/food_pics/pizza_class_3/kebab_pizza.webp" },
-  { name: "Canon", description: "Tomatsås, ost, bacon, salami, lök och ägg", price: "155 kr", image: "/images/food_pics/pizza_class_3/canon.jpeg" },
-  { name: "Dallas", description: "Tomatsås, ost, köttfärs, färska champinjoner och ägg", price: "155 kr", image: "/images/food_pics/pizza_class_3/dallas.jpeg" },
-  { name: "Hässelby", description: "Tomatsås, ost, fårost, mozzarella, honung, ruccola och pinjenötter", price: "165 kr", image: "/images/food_pics/pizza_class_3/hasselby.jpeg" },
-  { name: "Prinsessa", description: "Tomatsås, ost, skinka, räkor och ananas", price: "155 kr", image: "/images/food_pics/pizza_class_3/prinsessa.jpeg" },
+  { name: "Tropicana", description: "Tomatsås, ost, skinka, ananas, banan och curry", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/tropicana.jpeg" },
+  { name: "Gorgonzola", description: "Tomatsås, ost, skinka och gorgonzola", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/gorgonzola.webp" },
+  { name: "Havets Special", description: "Tomatsås, ost och blandade skaldjur", price: "160 kr", image: "/public/images/food_pics/pizza_class_3/havets_special.jpeg" },
+  { name: "Kebab Pizza", description: "Tomatsås, ost, lök, feferoni, färska tomater, kebabkött och kebabsås", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/kebab_pizza.webp" },
+  { name: "Canon", description: "Tomatsås, ost, bacon, salami, lök och ägg", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/canon.jpeg" },
+  { name: "Dallas", description: "Tomatsås, ost, köttfärs, färska champinjoner och ägg", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/dallas.jpeg" },
+  { name: "Hässelby", description: "Tomatsås, ost, fårost, mozzarella, honung, ruccola och pinjenötter", price: "165 kr", image: "/public/images/food_pics/pizza_class_3/hasselby.jpeg" },
+  { name: "Prinsessa", description: "Tomatsås, ost, skinka, räkor och ananas", price: "155 kr", image: "/public/images/food_pics/pizza_class_3/prinsessa.jpeg" },
 ];
 
 const pizzorKlass4 = [
