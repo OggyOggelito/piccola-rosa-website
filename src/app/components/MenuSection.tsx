@@ -19,7 +19,7 @@ export default function MenuSection({
   const [open, setOpen] = useState(true);
 
   return (
-    <div className="mb-6">
+    <div className="mb-10">
       {/* Header */}
       <button
         onClick={() => setOpen(!open)}
@@ -43,10 +43,10 @@ export default function MenuSection({
       {/* Content */}
       <div
         className={`overflow-hidden transition-all duration-300 ${
-          open ? "max-h-200 mt-4" : "max-h-0"
+          open ? "max-h-2000px mt-6" : "max-h-0"
         }`}
       >
-        <div className="space-y-4 px-2">
+        <div className="space-y-6 px-2">
           {items.map((item, idx) => (
             <div
               key={idx}
