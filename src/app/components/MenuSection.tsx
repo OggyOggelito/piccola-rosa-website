@@ -6,6 +6,7 @@ type MenuItemType = {
   name: string;
   description: string;
   price: string;
+  image?: string;
 };
 
 export default function MenuSection({
@@ -49,20 +50,30 @@ export default function MenuSection({
           {items.map((item, idx) => (
             <div
               key={idx}
-              className="flex justify-between items-start border-b border-white/10 pb-3 hover:border-white/30 transition"
+              className="flex items-start gap-4 border-b border-white/10 pb-4 hover:border-white/30 transition"
             >
-              <div>
-                <h3 className="text-base md:text-lg font-medium">
-                  {item.name}
-                </h3>
-                <p className="text-sm text-gray-400">
-                  {item.description}
-                </p>
-              </div>
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-20 h-20 object-cover rounded-lg"
+                />
+              )}
 
-              <span className="text-sm md:text-base font-medium">
-                {item.price}
-              </span>
+              <div className="flex-1 flex justify-between items-start">
+                <div>
+                  <h3 className="text-base md:text-lg font-medium">
+                    {item.name}
+                  </h3>
+                  <p className="text-sm text-gray-400">
+                    {item.description}
+                  </p>
+                </div>
+
+                <span className="text-sm md:text-base font-medium ml-4">
+                  {item.price}
+                </span>
+              </div>
             </div>
           ))}
         </div>
