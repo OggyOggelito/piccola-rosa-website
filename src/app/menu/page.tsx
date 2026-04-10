@@ -1,5 +1,6 @@
 import MenuSection from "../components/MenuSection";
 
+
 // --- PIZZOR ---
 const pizzorKlass1 = [
   { name: "Marghereta", description: "Tomatsås och ost", price: "305 kr (F) / 125 kr (S)", image: "/images/food_pics/pizza_class_1/marghereta.webp" },
@@ -218,7 +219,7 @@ export default function MenuPage() {
     <main className="min-h-screen px-6 py-16 max-w-4xl mx-auto">
 
       <h1 className="text-4xl md:text-5xl font-semibold mb-12 text-center">
-        Meny
+        Nya Piccola Rosa Meny
       </h1>
 
       <MenuSection title="Pizzor Klass 1" items={pizzorKlass1} />
