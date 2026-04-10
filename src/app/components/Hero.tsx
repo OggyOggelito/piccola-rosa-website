@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-b from-[#7A1E2C]/80 via-[#7A1E2C]/50 to-[#7A1E2C]/80 z-10" />
 
       <div className="relative z-20 max-w-3xl">
-        <h1 className="text-4xl md:text-6xl font-semibold tracking-wide mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-semibold tracking-wide mb-6 leading-tight text-white">
           Upplev äkta italiensk matkultur
         </h1>
 
@@ -35,7 +35,7 @@ export default function Hero() {
 
         {/* Reviews */}
         <div className="mt-16 overflow-hidden">
-          <div className="flex gap-6 animate-scroll">
+          <div className="flex gap-6 animate-[scroll_25s_linear_infinite]">
 
             <div className="min-w-[320px] max-w-[320px] bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
               <p className="text-yellow-400 mb-2">★★★★★</p>
