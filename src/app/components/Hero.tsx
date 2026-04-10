@@ -36,51 +36,26 @@ export default function Hero() {
         {/* Reviews */}
         <div className="mt-16 overflow-hidden">
           <div className="flex gap-6 animate-scroll whitespace-nowrap">
-            
-            {/* Review 1 */}
-            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-sm text-gray-300">
-                Super trevlig personal och fantastisk service. En av de bästa pizzorna i västerort!
-              </p>
-            </div>
 
-            {/* Review 2 */}
             <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
               <p className="text-yellow-400 mb-2">★★★★★</p>
               <p className="text-sm text-gray-300">
-                Trevlig personal. God mat och öl. Testa deras biff planka!
-              </p>
-            </div>
-
-            {/* Review 3 */}
-            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-sm text-gray-300">
-                Grym service och väldigt god mat!
-              </p>
-            </div>
-
-            {/* Review 4 */}
-            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-sm text-gray-300">
-                Mycket imponerad. Perfekt tillagat kött och krämig bearnaisesås.
-              </p>
-            </div>
-
-            {/* Duplicate Reviews for seamless loop */}
-            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-sm text-gray-300">
-                Super trevlig personal och fantastisk service. En av de bästa pizzorna i västerort!
+                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
+                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
               </p>
             </div>
 
             <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
               <p className="text-yellow-400 mb-2">★★★★★</p>
               <p className="text-sm text-gray-300">
-                Trevlig personal. God mat och öl. Testa deras biff planka!
+                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
+              </p>
+            </div>
+
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Bra service och riktigt god planka!
               </p>
             </div>
 
@@ -94,9 +69,47 @@ export default function Hero() {
             <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
               <p className="text-yellow-400 mb-2">★★★★★</p>
               <p className="text-sm text-gray-300">
-                Mycket imponerad. Perfekt tillagat kött och krämig bearnaisesås.
+                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
               </p>
             </div>
+
+            {/* Duplicate for loop */}
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
+                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
+              </p>
+            </div>
+
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
+              </p>
+            </div>
+
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Bra service och riktigt god planka!
+              </p>
+            </div>
+
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Grym service och väldigt god mat!
+              </p>
+            </div>
+
+            <div className="min-w-75 bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
