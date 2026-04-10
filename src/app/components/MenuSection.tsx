@@ -23,13 +23,13 @@ export default function MenuSection({
       {/* Header */}
       <button
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between bg-black border border-white/10 hover:border-white/30 transition px-5 py-4 rounded-xl"
+        className="w-full flex items-center justify-between bg-white border border-[#7A1E2C]/20 hover:border-[#7A1E2C] transition px-5 py-4 rounded-xl"
       >
         <h2 className="text-lg md:text-xl font-semibold tracking-wide">
           {title}
         </h2>
 
-        <div className="w-8 h-8 flex items-center justify-center rounded-full bg-black text-white">
+        <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#7A1E2C] text-white">
           <span
             className={`transform transition ${
               open ? "rotate-180" : "rotate-0"
@@ -50,7 +50,7 @@ export default function MenuSection({
           {items.map((item, idx) => (
             <div
               key={idx}
-              className="flex items-start gap-4 border-b border-white/10 pb-4 hover:border-white/30 transition"
+              className="flex items-start gap-4 border-b border-[#7A1E2C]/20 pb-4 hover:border-[#7A1E2C] transition"
             >
               {item.image && (
                 <img

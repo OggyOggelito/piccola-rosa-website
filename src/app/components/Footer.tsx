@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 mt-20 bg-black">
-      <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 text-sm text-gray-400">
+    <footer className="border-t border-[#7A1E2C]/20 mt-20 bg-[#F8F5F2]">
+      <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 text-sm text-gray-600">
         
         <div>
-          <h3 className="text-white text-lg mb-3 font-medium">
+          <h3 className="text-[#7A1E2C] text-lg mb-3 font-medium">
             Piccola Rosa
           </h3>
           <p>
@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-white mb-3 font-medium">Kontakt</h4>
+          <h4 className="text-[#7A1E2C] mb-3 font-medium">Kontakt</h4>
           <ul className="space-y-2">
             <li>📍 Fyrspannsgatan 171</li>
             <li>📞 073-627 60 86</li>
@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-white mb-3 font-medium">Öppettider</h4>
+          <h4 className="text-[#7A1E2C] mb-3 font-medium">Öppettider</h4>
           <ul className="space-y-2">
             <li>Mån-Tor: 10:00 - 22:00</li>
             <li>Fre: 10:00 - 23:00</li>
