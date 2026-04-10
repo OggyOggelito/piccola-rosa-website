@@ -32,6 +32,45 @@ export default function Hero() {
             Se meny
           </a>
         </div>
+
+        {/* Reviews */}
+        <div className="mt-16 overflow-hidden">
+          <div className="flex gap-6 animate-scroll whitespace-nowrap">
+            
+            {/* Review 1 */}
+            <div className="min-w-300px bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Super trevlig personal och fantastisk service. En av de bästa pizzorna i västerort!
+              </p>
+            </div>
+
+            {/* Review 2 */}
+            <div className="min-w-300px bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Trevlig personal. God mat och öl. Testa deras biff planka!
+              </p>
+            </div>
+
+            {/* Review 3 */}
+            <div className="min-w-300px bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Grym service och väldigt god mat!
+              </p>
+            </div>
+
+            {/* Review 4 */}
+            <div className="min-w-300px bg-white/5 border border-white/10 rounded-xl p-5 text-left">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-sm text-gray-300">
+                Mycket imponerad. Perfekt tillagat kött och krämig bearnaisesås.
+              </p>
+            </div>
+
+          </div>
+        </div>
       </div>
     </section>
   );
