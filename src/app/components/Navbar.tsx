@@ -12,7 +12,7 @@ export default function Navbar() {
       </div>
 
       <a
-        href="#beställ"
+        href="/bestall"
         className="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition"
       >
         Beställ via Wolt eller Foodora
