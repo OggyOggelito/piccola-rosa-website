@@ -9,6 +9,7 @@ export default function Navbar() {
         <a href="/" className="hover:text-[#7A1E2C] transition">Hem</a>
         <a href="/menu" className="hover:text-[#7A1E2C] transition">Meny</a>
         <a href="/contact" className="hover:text-[#7A1E2C] transition">Kontakt</a>
+        <a href="/sections" className="hover:text-[#7A1E2C] transition">Om oss</a>
       </div>
 
       <a
