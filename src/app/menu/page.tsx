@@ -54,7 +54,7 @@ const pizzorKlass5 = [
   { name: "Kebab Special", description: "Tomatsås, ost, kebabkött, sallad, tomater, lök, feferoni och kebabsås", price: "365 kr (F) / 145 kr (S)", image: "/images/food_pics/pizza_class_5/kebab_special.png" },
   { name: "Gyros Pizza", description: "Tomatsås, ost, gyros, lök, tomat, vitlökssås och feferoni", price: "365 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/gyros_pizza.png" },
   { name: "Battes Special", description: "Tomatsås, ost, oxfilé, purjolök, bearnaisesås, champinjoner, lök och paprika", price: "360 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/battes.png" },
-  { name: "Martinas Special", description: "Tomatsås, ost, oxfilé, bacon och gorgonzola", price: "365 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/martinas" },
+  { name: "Martinas Special", description: "Tomatsås, ost, oxfilé, bacon och gorgonzola", price: "365 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/martinas.png" },
   { name: "Mancini", description: "Tomatsås, ost, mozzarella, oxfilé, champinjoner, soltorkade tomater, purjolök, bearnaisesås och pesto", price: "365 kr (F) / 145 kr (S)", image: "/images/food_pics/pizza_class_5/mancini.png" },
   { name: "Fläskfile Pizza", description: "Tomatsås, ost, champinjoner, lök, tomater, gorgonzola och fläskfilé", price: "365 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/flaskfile.png" },
   { name: "Mimos Special", description: "Tomatsås, ost, fläskfilé, banan, jordnötter och curry", price: "365 kr (F) / 143 kr (S)", image: "/images/food_pics/pizza_class_5/mimos.png" },
