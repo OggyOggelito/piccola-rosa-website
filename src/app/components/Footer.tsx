@@ -17,7 +17,7 @@ export default function Footer() {
           <h4 className="text-[#7A1E2C] mb-3 font-medium">Kontakt</h4>
           <ul className="space-y-2">
             <li>📍 Fyrspannsgatan 171</li>
-            <li>📞 073-627 60 86</li>
+            <li>📞 08-89 69 19</li>
             <li>✉️ nyapiccolarosa@hotmail.com</li>
           </ul>
         </div>

@@ -1,8 +1,12 @@
 export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full px-6 py-4 flex items-center justify-between bg-[#F8F5F2]/90 backdrop-blur-md border-b border-[#7A1E2C]/20">
-      <div className="text-xl font-semibold tracking-wide">
-        Nya Piccola Rosa
+      <div className="flex items-center">
+        <img
+          src="/images/nya_piccola_rosa.png"
+          alt="Nya Piccola Rosa"
+          className="h-10 w-auto"
+        />
       </div>
 
       <div className="hidden md:flex gap-8 text-sm">
