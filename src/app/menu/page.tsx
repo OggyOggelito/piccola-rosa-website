@@ -65,95 +65,95 @@ const pizzorKlass5 = [
 ];
 
 const italienskaPizzor = [
-  { name: "Le Chef", description: "Tomatsås, ost, parmaskinka, mozzarella, tomater, oliver och ruccola", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Verona", description: "Tomatsås, ost, parmaskinka, mozzarella, champinjoner, soltorkade tomater och purjolök", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Scampi Pizza", description: "Tomatsås, ost, scampi, mozzarella, räkor, soltorkade tomater, rödlök och vitlök", price: "360 kr (F) / 149 kr (S)" },
-  { name: "Venedig", description: "Tomatsås, ost, parmaskinka, mozzarella, paprika, spenat och pinjenötter", price: "350 kr (F) / 143 kr (S)" },
+  { name: "Le Chef", description: "Tomatsås, ost, parmaskinka, mozzarella, tomater, oliver och ruccola", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
+  { name: "Verona", description: "Tomatsås, ost, parmaskinka, mozzarella, champinjoner, soltorkade tomater och purjolök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
+  { name: "Scampi Pizza", description: "Tomatsås, ost, scampi, mozzarella, räkor, soltorkade tomater, rödlök och vitlök", price: "360 kr (F) / 149 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
+  { name: "Venedig", description: "Tomatsås, ost, parmaskinka, mozzarella, paprika, spenat och pinjenötter", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
 ];
 
 const mexikanskaPizzor = [
-  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)" },
-  { name: "Mexikana", description: "Tomatsås, ost, köttfärs, lök, taco sås, kryddmix, jalapeño och vitlök", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Acapulco", description: "Tomatsås, ost, oxfilé, champinjoner, lök, jalapeño, taco sås och vitlök", price: "360 kr (F) / 143 kr (S)" },
-  { name: "Den Gode", description: "Tomatsås, ost, kyckling, champinjoner, paprika, ananas, curry, taco sås och jalapeño", price: "350 kr (F) / 143 kr (S)" },
+  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
+  { name: "Mexikana", description: "Tomatsås, ost, köttfärs, lök, taco sås, kryddmix, jalapeño och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
+  { name: "Acapulco", description: "Tomatsås, ost, oxfilé, champinjoner, lök, jalapeño, taco sås och vitlök", price: "360 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
+  { name: "Den Gode", description: "Tomatsås, ost, kyckling, champinjoner, paprika, ananas, curry, taco sås och jalapeño", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
 ];
 
 const halvinbakade = [
-  { name: "Oscar", description: "Tomatsås, ost, oxfilé, räkor och bearnaisesås", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Ciao Ciao", description: "Tomatsås, ost, oxfilé, paprika, färska tomater och bearnaisesås", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Shish Kebab", description: "Tomatsås, ost, oxfilé, lök, färska champinjoner, paprika och bearnaisesås", price: "350 kr (F) / 143 kr (S)" },
-  { name: "Gudfader", description: "Tomatsås, ost, oxfilé, lök, färsk tomat och vitlök", price: "350 kr (F) / 143 kr (S)" },
+  { name: "Oscar", description: "Tomatsås, ost, oxfilé, räkor och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
+  { name: "Ciao Ciao", description: "Tomatsås, ost, oxfilé, paprika, färska tomater och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
+  { name: "Shish Kebab", description: "Tomatsås, ost, oxfilé, lök, färska champinjoner, paprika och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
+  { name: "Gudfader", description: "Tomatsås, ost, oxfilé, lök, färsk tomat och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
 ];
 
 const inbakade = [
-  { name: "Calzone Bussola", description: "Tomatsås, ost, skinka och räkor", price: "138 kr (S)" },
-  { name: "Calzone Capri", description: "Tomatsås, ost, skinka och champinjoner", price: "138 kr (S)" },
-  { name: "Calzone", description: "Tomatsås, ost och skinka", price: "125 kr (S)" },
-  { name: "Tefat", description: "Dubbelinbakad. Tomatsås, ost och skinka", price: "350 kr (F) / 143 kr (S)" },
-  { name: "UFO", description: "Tomatsås, ost, skinka, champinjoner och räkor", price: "350 kr (F) / 155 kr (S)" },
-  { name: "Mezza Luna", description: "Tomatsås och ost. Halva delen: mozzarella och skinka. Andra delen: mozzarella, parmaskinka och ruccola", price: "350 kr (F) / 143 kr (S)" },
+  { name: "Calzone Bussola", description: "Tomatsås, ost, skinka och räkor", price: "138 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
+  { name: "Calzone Capri", description: "Tomatsås, ost, skinka och champinjoner", price: "138 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
+  { name: "Calzone", description: "Tomatsås, ost och skinka", price: "125 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
+  { name: "Tefat", description: "Dubbelinbakad. Tomatsås, ost och skinka", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
+  { name: "UFO", description: "Tomatsås, ost, skinka, champinjoner och räkor", price: "350 kr (F) / 155 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
+  { name: "Mezza Luna", description: "Tomatsås och ost. Halva delen: mozzarella och skinka. Andra delen: mozzarella, parmaskinka och ruccola", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/inbakade_pizzor/" },
 ];
 
 const barnpizza = [
-  { name: "Margharita Barnpizza", description: "Tomatsås och ost", price: "110 kr"}
+  { name: "Margharita Barnpizza", description: "Tomatsås och ost", price: "110 kr", image: "/images/food_pics/barn_pizzor/"}
 ];
 
 const panpizza = [
-  { name: "Honolulu", description: "Skinka, banan, curry, räkor", price: "309 kr (L) / 235 kr (M) / 128 kr (S)" },
-  { name: "San Fransiso", description: "Skinka, lök, paprika, färska champinjoner", price: "299 kr (L) / 220 kr (M) / 115 kr (S)" },
-  { name: "Arizona", description: "Skinka, bacon, räkor, färska champinjoner", price: "309 kr (L) / 235 kr (M) / 129 kr (S)" },
-  { name: "Mexicana", description: "Köttfärs, taco sås, jalapeño, kryddmix", price: "340 kr (L) / 290 kr (M) / 140 kr (S)" },
-  { name: "Pizza Russo", description: "Oxfilé, färska tomater, bearnaisesås, färska champinjoner", price: "340 kr (L) / 290 kr (M) / 139 kr (S)" },
-  { name: "Miami", description: "Kyckling, banan, ananas, curry", price: "340 kr (L) / 290 kr (M) / 135 kr (S)" },
+  { name: "Honolulu", description: "Skinka, banan, curry, räkor", price: "309 kr (L) / 235 kr (M) / 128 kr (S)", image: "/images/food_pics/panpizza/" },
+  { name: "San Fransiso", description: "Skinka, lök, paprika, färska champinjoner", price: "299 kr (L) / 220 kr (M) / 115 kr (S)", image: "/images/food_pics/panpizza/" },
+  { name: "Arizona", description: "Skinka, bacon, räkor, färska champinjoner", price: "309 kr (L) / 235 kr (M) / 129 kr (S)", image: "/images/food_pics/panpizza/" },
+  { name: "Mexicana", description: "Köttfärs, taco sås, jalapeño, kryddmix", price: "340 kr (L) / 290 kr (M) / 140 kr (S)", image: "/images/food_pics/panpizza/" },
+  { name: "Pizza Russo", description: "Oxfilé, färska tomater, bearnaisesås, färska champinjoner", price: "340 kr (L) / 290 kr (M) / 139 kr (S)", image: "/images/food_pics/panpizza/" },
+  { name: "Miami", description: "Kyckling, banan, ananas, curry", price: "340 kr (L) / 290 kr (M) / 135 kr (S)", image: "/images/food_pics/panpizza/" },
 ];
 
 const salladerFull = [
-  { name: "Avokadosallad", description: "Räkor, skinka, avokado, ägg, citron, majs, tomat och gurka", price: "139 kr" },
-  { name: "Kycklingsallad", description: "Kyckling, paprika, majs, ananas, tomat och gurka", price: "135 kr" },
-  { name: "Räksallad", description: "Räkor, paprika, champinjoner, tomater, gurka, ägg, citron", price: "139 kr" },
-  { name: "Västkustsallad", description: "Räkor, musslor, paprika, champinjoner, citron, ägg", price: "139 kr" },
-  { name: "Parmasallad", description: "Parmaskinka, soltorkade tomater, paprika, champinjoner, ruccola", price: "135 kr" },
-  { name: "Ost Skinksallad", description: "Ost, skinka, champinjoner, paprika, majs, tomat", price: "135 kr" },
-  { name: "Tonfisksallad", description: "Tonfisk, paprika, lök, majs, ägg, citron", price: "135 kr" },
-  { name: "Grekisksallad", description: "Fårost, lök, tomat, gurka, oliver, feferoni", price: "135 kr" },
-  { name: "Kebabsallad", description: "Kebabkött, lök, feferoni, tomat, gurka, vitlökssås", price: "135 kr" },
-  { name: "Halloumisallad", description: "Halloumi, sallad, tomat, gurka, paprika", price: "135 kr" },
-  { name: "Cesarsallad", description: "Kycklingfilé, krutonger, tomat, ruccola, dressing", price: "145 kr" },
+  { name: "Avokadosallad", description: "Räkor, skinka, avokado, ägg, citron, majs, tomat och gurka", price: "139 kr", image: "/images/food_pics/sallader/" },
+  { name: "Kycklingsallad", description: "Kyckling, paprika, majs, ananas, tomat och gurka", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Räksallad", description: "Räkor, paprika, champinjoner, tomater, gurka, ägg, citron", price: "139 kr", image: "/images/food_pics/sallader/" },
+  { name: "Västkustsallad", description: "Räkor, musslor, paprika, champinjoner, citron, ägg", price: "139 kr", image: "/images/food_pics/sallader/" },
+  { name: "Parmasallad", description: "Parmaskinka, soltorkade tomater, paprika, champinjoner, ruccola", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Ost Skinksallad", description: "Ost, skinka, champinjoner, paprika, majs, tomat", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Tonfisksallad", description: "Tonfisk, paprika, lök, majs, ägg, citron", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Grekisksallad", description: "Fårost, lök, tomat, gurka, oliver, feferoni", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Kebabsallad", description: "Kebabkött, lök, feferoni, tomat, gurka, vitlökssås", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Halloumisallad", description: "Halloumi, sallad, tomat, gurka, paprika", price: "135 kr", image: "/images/food_pics/sallader/" },
+  { name: "Cesarsallad", description: "Kycklingfilé, krutonger, tomat, ruccola, dressing", price: "145 kr", image: "/images/food_pics/sallader/" },
 ];
 
 const pastaFull = [
-  { name: "Husets Pasta", description: "Oxfilé, champinjoner, vitlök, pesto, rödvinssås", price: "143 kr" },
-  { name: "Taxi Pasta", description: "Oxfilé, champinjoner, paprika och gorgonzolasås", price: "143 kr" },
-  { name: "Pasta Penne", description: "Oxfilé, champinjoner, paprika och gorgonzolasås", price: "143 kr" },
-  { name: "Pasta Goloza", description: "Kyckling, paprika, zucchini, vitvin och tomatsås", price: "143 kr" },
-  { name: "Pasta Al Salmone", description: "Lax, vitvin, paprika, vitlök och tomatsås", price: "143 kr" },
-  { name: "Pasta Frutti Di Mare", description: "Scampi, räkor, musslor, vitvin, vitlök", price: "148 kr" },
-  { name: "Pasta Carbonara", description: "Bacon, lök, ägg, gräddsås", price: "143 kr" },
-  { name: "Vegetarisk Pasta", description: "Soltorkade tomater, oliver, zucchini, champinjoner", price: "139 kr" },
-  { name: "Pasta Bolognese", description: "Köttfärs, vitlök och tomatsås", price: "143 kr" },
-  { name: "Lasagne Al Forno", description: "Hemlagad", price: "143 kr" },
-  { name: "Avokado Pasta", description: "Avokado, räkor, paprika och champinjoner", price: "143 kr" },
-  { name: "Kyckling Ala Piccola", description: "Kyckling, paprika, champinjoner, currysås", price: "143 kr" },
+  { name: "Husets Pasta", description: "Oxfilé, champinjoner, vitlök, pesto, rödvinssås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Taxi Pasta", description: "Oxfilé, champinjoner, paprika och gorgonzolasås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Penne", description: "Oxfilé, champinjoner, paprika och gorgonzolasås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Goloza", description: "Kyckling, paprika, zucchini, vitvin och tomatsås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Al Salmone", description: "Lax, vitvin, paprika, vitlök och tomatsås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Frutti Di Mare", description: "Scampi, räkor, musslor, vitvin, vitlök", price: "148 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Carbonara", description: "Bacon, lök, ägg, gräddsås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Vegetarisk Pasta", description: "Soltorkade tomater, oliver, zucchini, champinjoner", price: "139 kr", image: "/images/food_pics/sallader/" },
+  { name: "Pasta Bolognese", description: "Köttfärs, vitlök och tomatsås", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Lasagne Al Forno", description: "Hemlagad", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Avokado Pasta", description: "Avokado, räkor, paprika och champinjoner", price: "143 kr", image: "/images/food_pics/sallader/" },
+  { name: "Kyckling Ala Piccola", description: "Kyckling, paprika, champinjoner, currysås", price: "143 kr", image: "/images/food_pics/sallader/" },
 ];
 
 const alaCarteFull = [
-  { name: "Fläskfile Oscar", description: "Med räkor, grönsaker, rödvinssås och bearnaise", price: "229 kr" },
-  { name: "Entrecote", description: "Med grönsaker, rödvinssås och pommes", price: "229 kr" },
-  { name: "Wienerschnitzel", description: "Med ärtor, kapris och citron", price: "229 kr" },
-  { name: "Biff på planka", description: "Med grillade grönsaker och bearnaise", price: "229 kr" },
+  { name: "Fläskfile Oscar", description: "Med räkor, grönsaker, rödvinssås och bearnaise", price: "229 kr", image: "/images/food_pics/a_la_carte/" },
+  { name: "Entrecote", description: "Med grönsaker, rödvinssås och pommes", price: "229 kr", image: "/images/food_pics/a_la_carte/" },
+  { name: "Wienerschnitzel", description: "Med ärtor, kapris och citron", price: "229 kr", image: "/images/food_pics/a_la_carte/" },
+  { name: "Biff på planka", description: "Med grillade grönsaker och bearnaise", price: "229 kr", image: "/images/food_pics/a_la_carte/" },
 ];
 
 const grillFull = [
-  { name: "Kebabtallrik", description: "Med pommes eller ris", price: "139 kr" },
-  { name: "Mix tallrik", description: "Kebab och kyckling", price: "149 kr" },
-  { name: "Kyckling tallrik", description: "Med pommes eller ris", price: "140 kr" },
-  { name: "Falafel tallrik", description: "Med pommes eller ris", price: "139 kr" },
-  { name: "Kyckling rulle", description: "Kyckling, sallad, lök, tomat", price: "140 kr" },
-  { name: "Kebabrulle", description: "Kebab, sallad, lök, tomat", price: "139 kr" },
-  { name: "Kebab m. bröd", description: "Sallad, lök, tomat", price: "110 kr" },
-  { name: "Falafel m. bröd", description: "Sallad, lök, tomat", price: "110 kr" },
-  { name: "Gyros tallrik", description: "Med pommes eller ris", price: "145 kr" },
-  { name: "Falafel rulle", description: "Sallad, lök, tomat", price: "135 kr" },
+  { name: "Kebabtallrik", description: "Med pommes eller ris", price: "139 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Mix tallrik", description: "Kebab och kyckling", price: "149 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Kyckling tallrik", description: "Med pommes eller ris", price: "140 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Falafel tallrik", description: "Med pommes eller ris", price: "139 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Kyckling rulle", description: "Kyckling, sallad, lök, tomat", price: "140 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Kebabrulle", description: "Kebab, sallad, lök, tomat", price: "139 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Kebab m. bröd", description: "Sallad, lök, tomat", price: "110 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Falafel m. bröd", description: "Sallad, lök, tomat", price: "110 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Gyros tallrik", description: "Med pommes eller ris", price: "145 kr", image: "/images/food_pics/grill_kebab/" },
+  { name: "Falafel rulle", description: "Sallad, lök, tomat", price: "135 kr", image: "/images/food_pics/grill_kebab/" },
 ];
 
 const dryckFull = [
