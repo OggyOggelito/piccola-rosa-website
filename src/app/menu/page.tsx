@@ -65,24 +65,24 @@ const pizzorKlass5 = [
 ];
 
 const italienskaPizzor = [
-  { name: "Le Chef", description: "Tomatsås, ost, parmaskinka, mozzarella, tomater, oliver och ruccola", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
-  { name: "Verona", description: "Tomatsås, ost, parmaskinka, mozzarella, champinjoner, soltorkade tomater och purjolök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
-  { name: "Scampi Pizza", description: "Tomatsås, ost, scampi, mozzarella, räkor, soltorkade tomater, rödlök och vitlök", price: "360 kr (F) / 149 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
-  { name: "Venedig", description: "Tomatsås, ost, parmaskinka, mozzarella, paprika, spenat och pinjenötter", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/" },
+  { name: "Le Chef", description: "Tomatsås, ost, parmaskinka, mozzarella, tomater, oliver och ruccola", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/le_chef.png" },
+  { name: "Verona", description: "Tomatsås, ost, parmaskinka, mozzarella, champinjoner, soltorkade tomater och purjolök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/verona.png" },
+  { name: "Scampi Pizza", description: "Tomatsås, ost, scampi, mozzarella, räkor, soltorkade tomater, rödlök och vitlök", price: "360 kr (F) / 149 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/scampi.png" },
+  { name: "Venedig", description: "Tomatsås, ost, parmaskinka, mozzarella, paprika, spenat och pinjenötter", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/italienska_delikatesspizzor/venedig.png" },
 ];
 
 const mexikanskaPizzor = [
-  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
-  { name: "Mexikana", description: "Tomatsås, ost, köttfärs, lök, taco sås, kryddmix, jalapeño och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
-  { name: "Acapulco", description: "Tomatsås, ost, oxfilé, champinjoner, lök, jalapeño, taco sås och vitlök", price: "360 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
-  { name: "Den Gode", description: "Tomatsås, ost, kyckling, champinjoner, paprika, ananas, curry, taco sås och jalapeño", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/" },
+  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)", image: "/images/food_pics/mexikanska_pizzor/aztek.png" },
+  { name: "Mexikana", description: "Tomatsås, ost, köttfärs, lök, taco sås, kryddmix, jalapeño och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/mexikana.png" },
+  { name: "Acapulco", description: "Tomatsås, ost, oxfilé, champinjoner, lök, jalapeño, taco sås och vitlök", price: "360 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/acapulco.png" },
+  { name: "Den Gode", description: "Tomatsås, ost, kyckling, champinjoner, paprika, ananas, curry, taco sås och jalapeño", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/den_gode.png" },
 ];
 
 const halvinbakade = [
-  { name: "Oscar", description: "Tomatsås, ost, oxfilé, räkor och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
-  { name: "Ciao Ciao", description: "Tomatsås, ost, oxfilé, paprika, färska tomater och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
-  { name: "Shish Kebab", description: "Tomatsås, ost, oxfilé, lök, färska champinjoner, paprika och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
-  { name: "Gudfader", description: "Tomatsås, ost, oxfilé, lök, färsk tomat och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/" },
+  { name: "Oscar", description: "Tomatsås, ost, oxfilé, räkor och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/oscar.png" },
+  { name: "Ciao Ciao", description: "Tomatsås, ost, oxfilé, paprika, färska tomater och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/ciao_ciao.png" },
+  { name: "Shish Kebab", description: "Tomatsås, ost, oxfilé, lök, färska champinjoner, paprika och bearnaisesås", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/shish_kebab.png" },
+  { name: "Gudfader", description: "Tomatsås, ost, oxfilé, lök, färsk tomat och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/halvinbakade_pizzor/gudfader.png" },
 ];
 
 const inbakade = [
