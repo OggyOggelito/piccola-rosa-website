@@ -1,5 +1,3 @@
-
-
 import HomeAbout from "../sections/HomeAbout";
 
 export default function AboutPage() {
@@ -10,7 +8,7 @@ export default function AboutPage() {
         <img
           src="/images/nya_piccola_rosa.png"
           alt="Background Logo"
-          className="w-125 md:w-175 opacity-10 blur-sm object-contain"
+          className="w-125 md:w-175 opacity-15 blur-[1px] object-contain"
         />
       </div>
       <div className="relative z-10">
