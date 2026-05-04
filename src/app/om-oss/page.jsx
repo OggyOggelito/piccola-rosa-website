@@ -10,7 +10,7 @@ export default function AboutPage() {
         <img
           src="/images/nya_piccola_rosa.png"
           alt="Background Logo"
-          className="w-125 md:w-175 opacity-5 object-contain"
+          className="w-125 md:w-175 opacity-10 blur-sm object-contain"
         />
       </div>
       <div className="relative z-10">
