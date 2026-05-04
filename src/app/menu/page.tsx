@@ -157,13 +157,43 @@ const grillFull = [
 ];
 
 const dryckFull = [
-  { name: "Coca Cola 2L", description: "", price: "50 kr" },
-  { name: "Coca Cola Zero 2L", description: "", price: "50 kr" },
-  { name: "Mer Jordgubb", description: "20cl", price: "17 kr" },
-  { name: "Pepsi Max", description: "33cl", price: "26 kr" },
-  { name: "Sprite Zero", description: "33cl", price: "26 kr" },
-  { name: "Trocadero", description: "33cl", price: "26 kr" },
-  { name: "Fanta", description: "33cl", price: "26 kr" },
+  // Flasköl
+  { name: "Åbro Flaska", description: "50cl", price: "65 kr" },
+  { name: "Bryggmästaren (Flaska)", description: "50cl", price: "70 kr" },
+  { name: "Småland 5.2", description: "50cl", price: "65 kr" },
+  { name: "Småland 7.2", description: "50cl", price: "80 kr" },
+  { name: "Bron Flaska", description: "50cl", price: "70 kr" },
+  { name: "Peroni", description: "33cl", price: "67 kr" },
+  { name: "Glutenfri öl", description: "33cl", price: "69 kr" },
+  { name: "Alkoholfri öl", description: "33cl", price: "49 kr" },
+
+  // Fatöl
+  { name: "Fat 21", description: "40cl", price: "50 kr" },
+  { name: "Fat 21", description: "50cl", price: "60 kr" },
+  { name: "Fat 21", description: "60cl", price: "69 kr" },
+
+  { name: "Bryggmästaren (Fat)", description: "40cl", price: "55 kr" },
+  { name: "Bryggmästaren (Fat)", description: "50cl", price: "65 kr" },
+  { name: "Bryggmästaren (Fat)", description: "60cl", price: "74 kr" },
+
+  { name: "Zlatopramen", description: "40cl", price: "61 kr" },
+  { name: "Zlatopramen", description: "50cl", price: "71 kr" },
+  { name: "Zlatopramen", description: "60cl", price: "79 kr" },
+
+  // Cider
+  { name: "Rekorderlig Skogsbär", description: "50cl", price: "82 kr" },
+  { name: "Rekorderlig Päron", description: "33cl", price: "69 kr" },
+  { name: "Rekorderlig Jordgubb", description: "33cl", price: "69 kr" },
+  { name: "Rekorderlig Vildbär", description: "33cl", price: "69 kr" },
+
+  // Vin
+  { name: "Vitt vin (Montgravet)", description: "1 glas", price: "72 kr" },
+  { name: "Rött vin (Montgravet)", description: "1 glas", price: "72 kr" },
+  { name: "Rosévin (Montgravet)", description: "1 glas", price: "77 kr" },
+  { name: "Rosé alkoholfri", description: "1 glas", price: "72 kr" },
+
+  // Övrigt
+  { name: "Läsk", description: "33cl", price: "25 kr" }
 ];
 
 // --- PASTA ---
