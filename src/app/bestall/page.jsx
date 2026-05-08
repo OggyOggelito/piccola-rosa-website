@@ -31,6 +31,15 @@ export default function BestallPage() {
         >
           Beställ via Wolt
         </a>
+        {/* Purspot */}
+        <a
+          href="https://online.purspot.com/store/location/79ba9c41-dea8-446e-9166-5d910aa59226"
+          target="_blank"
+          ref="noopener noreferrer"
+          className="bg-[#7A1E2C] text-white px-8 py-4 rounded-xl text-lg font-medium hover:bg-[#5c1622] transistion text-center shadow-sm"
+        >
+          Beställ via Purspot
+        </a>
 
       </div>
 

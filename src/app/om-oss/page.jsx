@@ -8,12 +8,12 @@ export default function AboutPage() {
         <img
           src="/images/nya_piccola_rosa.png"
           alt="Background Logo"
-          className="w-125 md:w-175 opacity-15 blur-[1px] object-contain"
+          className="w-72 md:w-175 opacity-15 blur-[1px] object-contain"
         />
       </div>
       <div className="relative z-10">
         {/* Hero-like header */}
-        <section className="pt-32 pb-16 px-6 text-center max-w-4xl mx-auto">
+        <section className="pt-28 md:pt-32 pb-12 md:pb-16 px-4 md:px-6 text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-semibold mb-4">
             Om oss
           </h1>

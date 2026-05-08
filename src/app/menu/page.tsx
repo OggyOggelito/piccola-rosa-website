@@ -246,9 +246,9 @@ const dryck = [
 
 export default function MenuPage() {
   return (
-    <main className="min-h-screen px-6 py-16 max-w-4xl mx-auto">
+    <main className="min-h-screen px-4 md:px-6 py-12 md:py-16 max-w-4xl mx-auto overflow-hidden">
 
-      <h1 className="text-4xl md:text-5xl font-semibold mb-12 text-center">
+      <h1 className="text-3xl md:text-5xl font-semibold mb-10 md:mb-12 text-center leading-tight">
         Nya Piccola Rosa Meny
       </h1>
 
