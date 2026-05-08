@@ -5,7 +5,7 @@ export default function Navbar() {
         <img
           src="/images/nya_piccola_rosa.png"
           alt="Nya Piccola Rosa"
-          className="h-16 md:h-24 w-auto"
+          className="h-20 md:h-30 w-auto"
         />
       </div>
 
