@@ -17,7 +17,7 @@ export default function BestallPage() {
           href="https://www.foodora.se/restaurant/faij/nya-piccola-rosa"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#7A1E2C] text-white px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-[260px] hover:bg-[#5c1622] transition text-center shadow-sm"
+          className="bg-[#7A1E2C] text-white px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-65 hover:bg-[#5c1622] transition text-center shadow-sm"
         >
           Beställ via Foodora
         </a>
@@ -27,7 +27,7 @@ export default function BestallPage() {
           href="https://wolt.com/sv/swe/stockholm/restaurant/nya-piccola-ros?srsltid=AfmBOop-P1_ySibQGmtbdiydmG4p_lmcnnecgBPQXrwVkGboNPpQK4cH"
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-[#7A1E2C] text-[#7A1E2C] px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-[260px] hover:bg-[#7A1E2C] hover:text-white transition text-center shadow-sm"
+          className="border border-[#7A1E2C] text-[#7A1E2C] px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-65 hover:bg-[#7A1E2C] hover:text-white transition text-center shadow-sm"
         >
           Beställ via Wolt
         </a>
@@ -36,7 +36,7 @@ export default function BestallPage() {
           href="https://online.purspot.com/store/location/79ba9c41-dea8-446e-9166-5d910aa59226"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#7A1E2C] text-white px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-[260px] hover:bg-[#5c1622] transition text-center shadow-sm"
+          className="bg-[#7A1E2C] text-white px-6 md:px-8 py-4 rounded-xl text-base md:text-lg font-medium min-w-65 hover:bg-[#5c1622] transition text-center shadow-sm"
         >
           Beställ via Purspot
         </a>
