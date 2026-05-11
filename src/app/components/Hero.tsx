@@ -7,7 +7,8 @@ export default function Hero() {
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-linear-to-b from-[#7A1E2C]/80 via-[#7A1E2C]/50 to-[#7A1E2C]/80 z-10" />
 
-      <div className="relative z-20 max-w-3xl w-full">
+      <div className="relative z-20 max-w-6xl w-full grid lg:grid-cols-2 gap-10 items-center">
+        <div>
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold mb-5 leading-tight text-white wrap-break-word px-2">
           Upplev äkta italiensk matkultur
         </h1>
@@ -98,6 +99,29 @@ export default function Hero() {
               <p className="text-sm text-gray-200 leading-relaxed whitespace-normal">
                 Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
               </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        {/* Restaurant Image */}
+        <div className="hidden lg:flex justify-center items-center relative">
+          <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm bg-white/5">
+            <img
+              src="/images/npr.png"
+              alt="Nya Piccola Rosa restaurang i Hässelby Strand"
+              className="w-[520px] h-[650px] object-cover"
+            />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-[#7A1E2C]/50 via-transparent to-transparent" />
+
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-left">
+              <p className="text-white text-sm uppercase tracking-[0.25em] opacity-80 mb-2">
+                Hässelby Strand
+              </p>
+              <h3 className="text-white text-3xl font-semibold leading-tight">
+                En modern kvarterskrog med italiensk själ
+              </h3>
             </div>
           </div>
         </div>
