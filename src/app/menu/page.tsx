@@ -166,13 +166,14 @@ const dryckFull = [
   { name: "Peroni", description: "33cl", price: "67 kr" },
   { name: "Glutenfri öl", description: "33cl", price: "69 kr" },
   { name: "Alkoholfri öl", description: "33cl", price: "49 kr" },
+  { name: "Läsk", description: "33cl", price: "25 kr"},
 
   // Fatöl
   { name: "Fat 21", description: "40cl", price: "50 kr" },
   { name: "Fat 21", description: "50cl", price: "60 kr" },
   { name: "Fat 21", description: "60cl", price: "69 kr" },
 
-  { name: "Bryggmästaren (Fat)", description: "40cl", price: "55 kr" },
+  { name: "Bryggmästaren (Fat)", description: "40cl", price: "56 kr" },
   { name: "Bryggmästaren (Fat)", description: "50cl", price: "65 kr" },
   { name: "Bryggmästaren (Fat)", description: "60cl", price: "74 kr" },
 
