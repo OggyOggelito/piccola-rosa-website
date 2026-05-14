@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section
-      className="relative min-h-[100svh] md:h-[90vh] flex items-center justify-center text-center px-4 md:px-6 pt-28 pb-14 md:py-0 bg-cover bg-center overflow-hidden"
+      className="relative min-h-[100svh] flex items-center justify-center text-center px-4 md:px-6 pt-44 md:pt-32 pb-20 bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       {/* Gradient overlay */}
@@ -34,80 +34,11 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Reviews */}
-        <div className="mt-10 md:mt-16 overflow-hidden">
-          <div className="flex gap-6 animate-[scroll_25s_linear_infinite]">
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
-                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Bra service och riktigt god planka!
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Grym service och väldigt god mat!
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
-              </p>
-            </div>
-            {/* Duplicate for loop */}
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
-                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Bra service och riktigt god planka!
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Grym service och väldigt god mat!
-              </p>
-            </div>
-            <div className="min-w-[240px] max-w-[240px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
-              <p className="text-yellow-400 mb-2">★★★★★</p>
-              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
-                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Quick Navigation Cards */}
-        <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 px-1 sm:px-0">
+        <div className="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 px-1 sm:px-0">
           <a
             href="/dryck"
-            className="group relative overflow-hidden rounded-2xl h-[180px] sm:h-[220px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
           >
             <img
               src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop"
@@ -131,7 +62,7 @@ export default function Hero() {
 
           <a
             href="/menu"
-            className="group relative overflow-hidden rounded-2xl h-[180px] sm:h-[220px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
           >
             <img
               src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?q=80&w=1200&auto=format&fit=crop"
@@ -155,7 +86,7 @@ export default function Hero() {
 
           <a
             href="/sport"
-            className="group relative overflow-hidden rounded-2xl h-[180px] sm:h-[220px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
           >
             <img
               src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=1200&auto=format&fit=crop"
@@ -177,10 +108,79 @@ export default function Hero() {
             </div>
           </a>
         </div>
+
+        {/* Reviews */}
+        <div className="mt-8 md:mt-12 overflow-hidden w-full">
+          <div className="flex gap-4 sm:gap-6 animate-[scroll_25s_linear_infinite] py-2">
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
+                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Bra service och riktigt god planka!
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Grym service och väldigt god mat!
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
+              </p>
+            </div>
+            {/* Duplicate for loop */}
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Super trevlig personal. De känns alltid närvarande och bra service. En av de bästa Acapulco pizzorna i västerort!
+                Tips: Utan champinjoner och ta Bea vid sidan så att du kan smeta på varje slice.
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Trevlig personal. God mat och öl. Veckans tips: Testa deras Biff planka.
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Bra service och riktigt god planka!
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Grym service och väldigt god mat!
+              </p>
+            </div>
+            <div className="min-w-[220px] max-w-[220px] sm:min-w-80 sm:max-w-80 bg-white/5 border border-white/10 rounded-xl p-5 text-left shrink-0 hover:bg-white/10 transition duration-300">
+              <p className="text-yellow-400 mb-2">★★★★★</p>
+              <p className="text-[13px] sm:text-sm text-gray-200 leading-relaxed whitespace-normal">
+                Mycket imponerad. Köttet var saftigt och perfekt tillagat, grönsakerna var fräscha och smakrika och bearnaisesåsen var krämig och välbalanserad. En riktigt god och vällagad biff på planka.
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
 
         {/* Restaurant Image */}
-        <div className="hidden lg:flex justify-center items-center relative pr-4">
+        <div className="hidden lg:flex justify-center items-start relative pr-4 pt-4">
           <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm bg-white/5">
             <img
               src="/images/npr.png"
