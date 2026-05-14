@@ -1,6 +1,6 @@
 export default function HomeAbout() {
   return (
-    <section className="px-6 py-16 max-w-4xl mx-auto text-center">
+    <section className="px-6 pt-28 pb-16 md:pt-36 max-w-4xl mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-semibold mb-6">
         Om Piccola Rosa
       </h2>
