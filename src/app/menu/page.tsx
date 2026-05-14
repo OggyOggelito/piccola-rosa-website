@@ -271,7 +271,7 @@ export default function MenuPage() {
       <MenuSection title="À La Carte" items={alaCarteFull} />
       <MenuSection title="Grill Kebab" items={grillFull} />
 
-      <MenuSection title="Dryck" items={dryckFull} />
+      <MenuSection id="dryck" title="Dryck" items={dryckFull} />
 
     </main>
   );

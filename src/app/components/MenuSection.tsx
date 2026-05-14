@@ -12,14 +12,16 @@ type MenuItemType = {
 export default function MenuSection({
   title,
   items,
+  id,
 }: {
   title: string;
   items: MenuItemType[];
+  id?: string;
 }) {
   const [open, setOpen] = useState(true);
 
   return (
-    <div className="mb-10">
+    <div id={id} className="mb-10 scroll-mt-32">
       {/* Header */}
       <button
         onClick={() => setOpen(!open)}

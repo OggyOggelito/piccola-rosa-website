@@ -37,7 +37,7 @@ export default function Hero() {
         {/* Quick Navigation Cards */}
         <div className="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 px-1 sm:px-0">
           <a
-            href="/menu#Dryck"
+            href="/menu#dryck"
             className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
           >
             <img
