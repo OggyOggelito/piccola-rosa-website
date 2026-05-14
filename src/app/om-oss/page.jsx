@@ -13,7 +13,7 @@ export default function AboutPage() {
       </div>
       <div className="relative z-10">
         {/* Hero-like header */}
-        <section className="pt-28 md:pt-32 pb-12 md:pb-16 px-4 md:px-6 text-center max-w-4xl mx-auto">
+        <section className="pt-24 md:pt-32 pb-10 md:pb-16 px-4 md:px-6 text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-semibold mb-4">
             Om oss
           </h1>

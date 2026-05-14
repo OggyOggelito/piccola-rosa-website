@@ -1,10 +1,8 @@
-
-
 export default function SportPage() {
   return (
     <main className="min-h-screen bg-[#F8F5F2] text-black overflow-hidden">
       {/* Hero */}
-      <section className="relative px-4 md:px-6 py-28 md:py-36 text-center overflow-hidden">
+      <section className="relative px-4 md:px-6 pt-28 pb-20 md:py-36 text-center overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-[#F8F5F2]" />
         <img
           src="/images/npr.png"
@@ -17,7 +15,7 @@ export default function SportPage() {
             Live Sport hos Nya Piccola Rosa
           </p>
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold leading-tight mb-6">
+          <h1 className="text-[2.4rem] sm:text-5xl md:text-7xl font-semibold leading-[1.1] mb-6">
             Sport, mat och magisk stämning
           </h1>
 
