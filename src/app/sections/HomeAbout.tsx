@@ -2,14 +2,14 @@ export default function HomeAbout() {
   return (
     <section className="px-6 pt-10 md:pt-16 pb-24 max-w-5xl mx-auto text-center relative z-10">
       {/* Heading */}
-      <div className="mb-12 md:mb-16">
+      <div className="mb-8 md:mb-10">
         <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
           Om Piccola Rosa
         </h2>
       </div>
 
       {/* Center Logo */}
-      <div className="flex justify-center items-center mb-16 md:mb-24 pointer-events-none">
+      <div className="flex justify-center items-center mb-10 md:mb-14 pointer-events-none">
         <img
           src="/images/nya_piccola_rosa.png"
           alt="Piccola Rosa Logo"
