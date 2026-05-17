@@ -12,16 +12,6 @@ export default function AboutPage() {
         />
       </div>
       <div className="relative z-10">
-        {/* Hero-like header */}
-        <section className="pt-24 md:pt-32 pb-10 md:pb-16 px-4 md:px-6 text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-semibold mb-4">
-            Om oss
-          </h1>
-          <p className="text-lg text-gray-600">
-            En familjeägd restaurang där passion för mat, dryck och service möts.
-          </p>
-        </section>
-
         {/* Existing About content */}
         <HomeAbout />
 
