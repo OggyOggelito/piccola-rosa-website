@@ -89,7 +89,7 @@ export default function Hero() {
             className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=1200&auto=format&fit=crop"
+              src="/images/sport.png"
               alt="Sport"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
             />
