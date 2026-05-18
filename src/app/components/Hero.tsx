@@ -180,12 +180,12 @@ export default function Hero() {
         </div>
 
         {/* Restaurant Image */}
-        <div className="hidden lg:flex justify-center items-start relative pr-4 pt-4">
-          <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl backdrop-blur-sm bg-white/5">
+        <div className="hidden lg:flex justify-center items-stretch relative h-full">
+          <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl bg-white/5 w-full max-w-[560px] h-[760px]">
             <img
               src="/images/npr.png"
               alt="Nya Piccola Rosa restaurang i Hässelby Strand"
-              className="w-[520px] h-[650px] object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
             />
 
             <div className="absolute inset-0 bg-gradient-to-t from-[#7A1E2C]/50 via-transparent to-transparent" />
