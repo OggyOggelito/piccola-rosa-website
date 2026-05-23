@@ -277,11 +277,11 @@ export default function MenuPage() {
       <MenuSection title="À La Carte" items={alaCarteFull} />
       <MenuSection title="Grill Kebab" items={grillFull} />
 
-      <MenuSection id="dryck1" title="Dryck" items={dryckFlask} />
-      <MenuSection id="dryck" title="Dryck" items={dryckFat} />
-      <MenuSection id="dryck" title="Dryck" items={dryckCider} />
-      <MenuSection id="dryck" title="Dryck" items={dryckVin} />
-      <MenuSection id="dryck" title="Dryck" items={dryckLask} />
+      <MenuSection id="dryck1" title="Flask öl" items={dryckFlask} />
+      <MenuSection id="dryck" title="Fatöl" items={dryckFat} />
+      <MenuSection id="dryck" title="Cider" items={dryckCider} />
+      <MenuSection id="dryck" title="Viner" items={dryckVin} />
+      <MenuSection id="dryck" title="Läsk" items={dryckLask} />
 
     </main>
   );
