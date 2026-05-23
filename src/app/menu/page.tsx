@@ -156,44 +156,50 @@ const grillFull = [
   { name: "Falafel rulle", description: "Sallad, lök, tomat", price: "135 kr", image: "/images/food_pics/grill_kebab/" },
 ];
 
-const dryckFull = [
+const dryckFlask = [
   // Flasköl
-  { name: "Åbro Flaska", description: "50cl", price: "65 kr" },
-  { name: "Bryggmästaren (Flaska)", description: "50cl", price: "70 kr" },
-  { name: "Småland 5.2", description: "50cl", price: "65 kr" },
-  { name: "Småland 7.2", description: "50cl", price: "80 kr" },
-  { name: "Bron Flaska", description: "50cl", price: "70 kr" },
-  { name: "Peroni", description: "33cl", price: "67 kr" },
-  { name: "Glutenfri öl", description: "33cl", price: "69 kr" },
+  { name: "Åbro Flaska", description: "50cl", price: "69 kr" },
+  { name: "Bryggmästaren (Flaska)", description: "50cl", price: "75 kr" },
+  { name: "Småland 5.2", description: "50cl", price: "69 kr" },
+  { name: "Småland 7.2", description: "50cl", price: "85 kr" },
+  { name: "Bron Flaska", description: "50cl", price: "75 kr" },
+  { name: "Peroni", description: "33cl", price: "70 kr" },
+  { name: "Glutenfri öl", description: "33cl", price: "70 kr" },
   { name: "Alkoholfri öl", description: "33cl", price: "49 kr" },
-
-
+  ];
+const dryckFat = [
   // Fatöl
-  { name: "Fat 21", description: "40cl", price: "50 kr" },
-  { name: "Fat 21", description: "50cl", price: "60 kr" },
-  { name: "Fat 21", description: "60cl", price: "69 kr" },
+  { name: "Fat 21", description: "40cl", price: "53 kr" },
+  { name: "Fat 21", description: "50cl", price: "63 kr" },
+  { name: "Fat 21", description: "60cl", price: "73 kr" },
+  
 
-  { name: "Bryggmästaren (Fat)", description: "40cl", price: "56 kr" },
-  { name: "Bryggmästaren (Fat)", description: "50cl", price: "65 kr" },
-  { name: "Bryggmästaren (Fat)", description: "60cl", price: "74 kr" },
+  { name: "Bryggmästaren (Fat)", description: "40cl", price: "58 kr" },
+  { name: "Bryggmästaren (Fat)", description: "50cl", price: "67 kr" },
+  { name: "Bryggmästaren (Fat)", description: "60cl", price: "76 kr" },
 
-  { name: "Zlatopramen", description: "40cl", price: "61 kr" },
-  { name: "Zlatopramen", description: "50cl", price: "71 kr" },
-  { name: "Zlatopramen", description: "60cl", price: "79 kr" },
-
+  { name: "Zlatopramen", description: "40cl", price: "63 kr" },
+  { name: "Zlatopramen", description: "50cl", price: "73 kr" },
+  { name: "Zlatopramen", description: "60cl", price: "83 kr" },
+  ];
+  
   // Cider
-  { name: "Rekorderlig Skogsbär", description: "50cl", price: "82 kr" },
-  { name: "Rekorderlig Päron", description: "33cl", price: "69 kr" },
-  { name: "Rekorderlig Jordgubb", description: "33cl", price: "69 kr" },
-  { name: "Rekorderlig Vildbär", description: "33cl", price: "69 kr" },
-
+const dryckCider = [
+  { name: "Rekorderlig Skogsbär", description: "50cl", price: "85 kr" },
+  { name: "Rekorderlig Päron", description: "33cl", price: "72 kr" },
+  { name: "Rekorderlig Jordgubb", description: "33cl", price: "72 kr" },
+  { name: "Rekorderlig Vildbär", description: "33cl", price: "72 kr" },
+  ];
   // Vin
-  { name: "Vitt vin (Montgravet)", description: "1 glas", price: "72 kr" },
-  { name: "Rött vin (Montgravet)", description: "1 glas", price: "72 kr" },
+  const dryckVin = [
+  { name: "Vitt vin (Montgravet)", description: "1 glas", price: "75 kr" },
+  { name: "Rött vin (Montgravet)", description: "1 glas", price: "75 kr" },
+  { name: "Cava", description: "1 glas", price: "80 kr"},
   { name: "Rosévin (Montgravet)", description: "1 glas", price: "77 kr" },
   { name: "Rosé alkoholfri", description: "1 glas", price: "72 kr" },
-
+  ];
   // Övrigt
+const dryckLask = [
   { name: "Läsk", description: "33cl", price: "25 kr" }
 ];
 
@@ -271,7 +277,11 @@ export default function MenuPage() {
       <MenuSection title="À La Carte" items={alaCarteFull} />
       <MenuSection title="Grill Kebab" items={grillFull} />
 
-      <MenuSection id="dryck" title="Dryck" items={dryckFull} />
+      <MenuSection id="dryck1" title="Dryck" items={dryckFlask} />
+      <MenuSection id="dryck" title="Dryck" items={dryckFat} />
+      <MenuSection id="dryck" title="Dryck" items={dryckCider} />
+      <MenuSection id="dryck" title="Dryck" items={dryckVin} />
+      <MenuSection id="dryck" title="Dryck" items={dryckLask} />
 
     </main>
   );
