@@ -35,10 +35,10 @@ export default function Hero() {
         </div>
 
         {/* Quick Navigation Cards */}
-        <div className="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 px-1 sm:px-0">
+        <div className="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-3 gap-0 overflow-hidden rounded-3xl border border-white/10 shadow-2xl bg-white/5 backdrop-blur-sm px-0">
           <a
             href="/menu#dryck1"
-            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden h-[140px] sm:h-[180px] border-r border-white/10 last:border-r-0"
           >
             <img
               src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop"
@@ -46,9 +46,9 @@ export default function Hero() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
             />
 
-            <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300" />
 
-            <div className="relative z-10 h-full flex items-end p-5">
+            <div className="relative z-10 h-full flex items-end p-4 sm:p-5">
               <div>
                 <p className="text-white/70 text-xs uppercase tracking-[0.25em] mb-2">
                   Dryck
@@ -62,7 +62,7 @@ export default function Hero() {
 
           <a
             href="/menu"
-            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden h-[140px] sm:h-[180px] border-r border-white/10 last:border-r-0"
           >
             <img
               src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?q=80&w=1200&auto=format&fit=crop"
@@ -70,9 +70,9 @@ export default function Hero() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
             />
 
-            <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300" />
 
-            <div className="relative z-10 h-full flex items-end p-5">
+            <div className="relative z-10 h-full flex items-end p-4 sm:p-5">
               <div>
                 <p className="text-white/70 text-xs uppercase tracking-[0.25em] mb-2">
                   Mat
@@ -86,7 +86,7 @@ export default function Hero() {
 
           <a
             href="/sport"
-            className="group relative overflow-hidden rounded-2xl h-[140px] sm:h-[180px] border border-white/10 shadow-xl"
+            className="group relative overflow-hidden h-[140px] sm:h-[180px] border-r border-white/10 last:border-r-0"
           >
             <img
               src="/images/sport.png"
@@ -94,9 +94,9 @@ export default function Hero() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
             />
 
-            <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300" />
 
-            <div className="relative z-10 h-full flex items-end p-5">
+            <div className="relative z-10 h-full flex items-end p-4 sm:p-5">
               <div>
                 <p className="text-white/70 text-xs uppercase tracking-[0.25em] mb-2">
                   Live Sport
