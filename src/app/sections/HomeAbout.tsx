@@ -11,7 +11,7 @@ export default function HomeAbout() {
       {/* Center Logo */}
       <div className="flex justify-center items-center mb-10 md:mb-14 pointer-events-none">
         <img
-          src="/images/nya_piccola_rosa.png"
+          src="/images/nya_npr.png"
           alt="Piccola Rosa Logo"
           className="w-[320px] md:w-[520px] opacity-[0.12] object-contain select-none"
         />
