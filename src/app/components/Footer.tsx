@@ -26,8 +26,8 @@ export default function Footer() {
           <h4 className="text-[#7A1E2C] mb-3 font-medium">Öppettider</h4>
           <ul className="space-y-2">
             <li>Mån-Tor: 10:00 - 22:00</li>
-            <li>Fre: 10:00 - 23:00</li>
-            <li>Lör: 11:00 - 23:00</li>
+            <li>Fre: 10:00 - 22:00</li>
+            <li>Lör: 11:00 - 22:00</li>
             <li>Sön: 11:00 - 22:00</li>
           </ul>
         </div>
