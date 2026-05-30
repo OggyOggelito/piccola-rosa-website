@@ -72,7 +72,7 @@ const italienskaPizzor = [
 ];
 
 const mexikanskaPizzor = [
-  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)", image: "/images/food_pics/mexikanska_pizzor/aztek.png" },
+  { name: "Azteka", description: "Tomatsås, ost, skinka, taco sås, kryddmix, jalapeño och gräddfil", price: "350 kr (F) / 134 kr (S)", image: "/images/food_pics/mexikanska_pizzor/azteka.png" },
   { name: "Mexikana", description: "Tomatsås, ost, köttfärs, lök, taco sås, kryddmix, jalapeño och vitlök", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/mexikana.png" },
   { name: "Acapulco", description: "Tomatsås, ost, oxfilé, champinjoner, lök, jalapeño, taco sås och vitlök", price: "360 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/acapulco.png" },
   { name: "Den Gode", description: "Tomatsås, ost, kyckling, champinjoner, paprika, ananas, curry, taco sås och jalapeño", price: "350 kr (F) / 143 kr (S)", image: "/images/food_pics/mexikanska_pizzor/den_gode.png" },
@@ -131,7 +131,7 @@ const pastaFull = [
   { name: "Pasta Carbonara", description: "Bacon, lök, ägg, gräddsås", price: "143 kr", image: "/images/food_pics/pasta/carbonara.png" },
   { name: "Vegetarisk Pasta", description: "Soltorkade tomater, oliver, zucchini, champinjoner", price: "139 kr", image: "/images/food_pics/pasta/veg_pasta.png" },
   { name: "Pasta Bolognese", description: "Köttfärs, vitlök och tomatsås", price: "143 kr", image: "/images/food_pics/pasta/bolognese.png" },
-  { name: "Lasagne Al Forno", description: "Hemlagad", price: "143 kr", image: "/images/food_pics/sallader/al_forno.png" },
+  { name: "Lasagne Al Forno", description: "Hemlagad", price: "143 kr", image: "/images/food_pics/pasta/al_forno.png" },
   { name: "Avokado Pasta", description: "Avokado, räkor, paprika och champinjoner", price: "143 kr", image: "/images/food_pics/pasta/avo_pasta.png" },
   { name: "Kyckling Ala Piccola", description: "Kyckling, paprika, champinjoner, currysås", price: "143 kr", image: "/images/food_pics/pasta/ala_piccola.png" },
 ];
