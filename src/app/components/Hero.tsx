@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative flex items-center justify-center px-5 py-12 md:py-16 lg:py-20 bg-cover bg-center overflow-hidden"
+      className="relative flex items-center justify-center px-5 py-10 md:py-16 bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#7A1E2C]/90 via-[#7A1E2C]/75 to-[#5c1622]/90 z-10" />
@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-5 leading-tight text-white">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl font-semibold mb-5 leading-tight text-white">
             Upplev äkta italiensk matkultur
           </h1>
 
