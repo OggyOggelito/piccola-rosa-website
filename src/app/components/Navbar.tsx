@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 w-full px-3 sm:px-4 md:px-6 py-3 md:py-4 flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/20 gap-2 md:gap-3">
+    <nav className="sticky top-0 z-50 w-full px-3 sm:px-4 md:px-6 py-3 md:py-4 flex items-center justify-between bg-[FFFF]/95 backdrop-blur-md border-b border-[#7A1E2C]/20 gap-2 md:gap-3">
       <div className="flex items-center">
         <img
           src="/images/nya_npr.png"
