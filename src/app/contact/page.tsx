@@ -1,10 +1,10 @@
 export default function ContactPage() {
   return (
-    <main className="min-h-screen px-4 md:px-6 py-16 max-w-6xl mx-auto bg-[#F8F5F2]">
+    <main className="min-h-screen px-4 md:px-6 py-10 md:py-16 max-w-6xl mx-auto bg-[#F8F5F2]">
       <div className="grid lg:grid-cols-2 gap-10 items-start">
         {/* Contact Info */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-semibold mb-10 text-[#7A1E2C]">
+          <h1 className="text-3xl md:text-5xl font-semibold mb-8 md:mb-10 text-[#7A1E2C]">
             Kontakt
           </h1>
 

@@ -1,9 +1,9 @@
 export default function HomeAbout() {
   return (
-    <section className="px-6 pt-10 md:pt-16 pb-24 max-w-5xl mx-auto text-center relative z-10">
+    <section className="px-4 sm:px-6 pt-8 md:pt-16 pb-16 md:pb-24 max-w-5xl mx-auto text-center relative z-10">
       {/* Heading */}
       <div className="mb-8 md:mb-10">
-        <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
+        <h2 className="text-3xl md:text-6xl font-bold tracking-tight">
           Om Piccola Rosa
         </h2>
       </div>
