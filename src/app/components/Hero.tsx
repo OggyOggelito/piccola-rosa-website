@@ -11,16 +11,16 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center text-center px-5 py-10 md:py-16 bg-cover bg-center overflow-hidden"
+      className="relative flex items-center justify-center px-5 py-12 md:py-16 lg:py-20 bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#7A1E2C]/90 via-[#7A1E2C]/75 to-[#5c1622]/90 z-10" />
 
-      <div className="relative z-20 max-w-6xl w-full grid lg:grid-cols-2 gap-10 lg:gap-16 items-center text-left">
+      <div className="relative z-20 max-w-6xl w-full grid lg:grid-cols-2 gap-10 lg:gap-14 items-center text-left">
 
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
 
-          <h1 className="text-4xl sm:text-5xl md:text-5xl font-semibold mb-5 leading-tight text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-5 leading-tight text-white">
             Upplev äkta italiensk matkultur
           </h1>
 
@@ -44,8 +44,8 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="w-full grid grid-cols-3 overflow-hidden rounded-2xl border border-white/20 shadow-xl">
-            <a href="/menu#dryck1" className="group relative overflow-hidden h-[150px] sm:h-[170px] border-r border-white/20">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-3 overflow-hidden rounded-2xl border border-white/20 shadow-xl">
+            <a href="/menu#dryck1" className="group relative overflow-hidden h-[110px] sm:h-[170px] border-r border-white/20">
               <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=800&auto=format&fit=crop" alt="Dryckesmeny" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
               <div className="relative z-10 h-full flex items-end p-3 sm:p-4">
@@ -55,7 +55,7 @@ export default function Hero() {
                 </div>
               </div>
             </a>
-            <a href="/menu" className="group relative overflow-hidden h-[150px] sm:h-[170px] border-r border-white/20">
+            <a href="/menu" className="group relative overflow-hidden h-[110px] sm:h-[170px] border-r border-white/20">
               <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?q=80&w=800&auto=format&fit=crop" alt="Meny" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
               <div className="relative z-10 h-full flex items-end p-3 sm:p-4">
@@ -65,7 +65,7 @@ export default function Hero() {
                 </div>
               </div>
             </a>
-            <a href="/sport" className="group relative overflow-hidden h-[150px] sm:h-[170px]">
+            <a href="/sport" className="group relative overflow-hidden h-[110px] sm:h-[170px]">
               <img src="/images/sport.png" alt="Sport" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div className="absolute inset-0 bg-black/45 group-hover:bg-black/55 transition duration-300" />
               <div className="relative z-10 h-full flex items-end p-3 sm:p-4">
@@ -78,7 +78,7 @@ export default function Hero() {
           </div>
 
           {/* Scrolling reviews */}
-          <div className="mt-8 overflow-hidden w-full">
+          <div className="mt-6 overflow-hidden w-full">
             <div
               className="flex gap-4 py-2"
               style={{ animation: "scroll 30s linear infinite" }}
