@@ -21,7 +21,7 @@ export default function Navbar() {
         href="/bestall"
         className="bg-[#7A1E2C] text-white px-3 sm:px-4 md:px-5 py-2 rounded-full text-[10px] sm:text-xs md:text-sm font-medium hover:bg-[#5c1622] transition text-center leading-tight max-w-32 sm:max-w-36 md:max-w-none shrink-0"
       >
-        Beställ via Wolt eller Foodora
+        Beställ via Purspot, Wolt eller Foodora
       </a>
     </nav>
   );
