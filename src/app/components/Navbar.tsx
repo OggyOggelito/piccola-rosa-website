@@ -5,11 +5,11 @@ export default function Navbar() {
         <img
           src="/images/nya_npr.png"
           alt="Nya Piccola Rosa"
-          className="h-12 sm:h-16 md:h-20 lg:h-28 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply shrink-0"
+          className="h-16 md:h-24 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply"
         />
       </div>
 
-      <div className="hidden md:flex gap-8 text-sm">
+      <div className="hidden md:flex gap-10 text-lg">
         <a href="/" className="hover:text-[#7A1E2C] transition">Hem</a>
         <a href="/menu" className="hover:text-[#7A1E2C] transition">Meny</a>
         <a href="/contact" className="hover:text-[#7A1E2C] transition">Kontakt</a>
@@ -19,7 +19,7 @@ export default function Navbar() {
 
       <a
         href="/bestall"
-        className="hidden md:block bg-[#7A1E2C] text-white px-4 md:px-5 py-2 rounded-full text-xs md:text-sm font-medium hover:bg-[#5c1622] transition text-center leading-tight shrink-0"
+        className="hidden md:block bg-[#7A1E2C] text-white px-5 py-2 rounded-full text-base font-medium hover:bg-[#5c1622] transition"
       >
         Beställ via Purspot, Wolt eller Foodora
       </a>
