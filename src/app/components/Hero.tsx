@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center text-center px-5 py-16 md:py-24 bg-cover bg-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center text-center px-5 py-10 md:py-16 bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#7A1E2C]/90 via-[#7A1E2C]/75 to-[#5c1622]/90 z-10" />
@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold mb-5 leading-tight text-white">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl font-semibold mb-5 leading-tight text-white">
             Upplev äkta italiensk matkultur
           </h1>
 
@@ -98,7 +98,7 @@ export default function Hero() {
 
         {/* Right column — desktop only */}
         <div className="hidden lg:flex justify-center items-center">
-          <div className="relative overflow-hidden rounded-3xl border border-white/20 shadow-2xl w-full max-w-[500px] h-[680px]">
+          <div className="relative overflow-hidden rounded-3xl border border-white/20 shadow-2xl w-full max-w-[460px] h-[560px]">
             <img src="/images/npr.png" alt="Nya Piccola Rosa restaurang i Hässelby Strand" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#7A1E2C]/60 via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-left">
