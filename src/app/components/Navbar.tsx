@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 lg:px-8 h-[78px] flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15">        {/* Logo */}
+<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 lg:px-8 h-[96px] flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15">        {/* Logo */}
         <div className="flex items-center shrink-0 w-[72px] sm:w-[84px] lg:w-[92px]">
           <img
             src="/images/nya_npr.png"

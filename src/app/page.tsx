@@ -27,7 +27,7 @@ export default function Home() {
 
         <div className="overflow-hidden rounded-3xl shadow-2xl border border-black/5">
           <iframe
-            src="https://www.google.com/maps?q=H%C3%A4sselby%20Strand%20Stockholm&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.3207427061177!2d17.829191277070706!3d59.36098567462967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9fe03b741b6f%3A0x37aea916889f16ae!2sNya%20Piccola%20Rosa!5e0!3m2!1ssv!2sse!4v1780325136989!5m2!1ssv!2sse"
             width="100%"
             height="500"
             loading="lazy"
