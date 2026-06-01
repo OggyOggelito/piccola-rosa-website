@@ -6,17 +6,17 @@ export default function Navbar() {
 
   return (
     <>
-<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 md:px-8 py-2 md:py-3 flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15 gap-6">        {/* Logo */}
-        <div className="flex items-center shrink-0">
+<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15">        {/* Logo */}
+        <div className="flex items-center shrink-0 w-[110px] sm:w-[130px] lg:w-[150px]">
           <img
             src="/images/nya_npr.png"
             alt="Nya Piccola Rosa"
-            className="h-8 md:h-9 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply shrink-0"
+            className="h-10 sm:h-11 lg:h-12 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply"
           />
         </div>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8 text-base font-medium text-[#1a1a1a] flex-1 justify-center">
+        <div className="hidden md:flex items-center gap-7 text-[15px] font-medium text-[#1a1a1a] flex-1 justify-center">
           <a href="/" className="hover:text-[#7A1E2C] transition">Hem</a>
           <a href="/menu" className="hover:text-[#7A1E2C] transition">Meny</a>
           <a href="/contact" className="hover:text-[#7A1E2C] transition">Kontakt</a>
@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <a
           href="/bestall"
-          className="hidden md:block bg-[#7A1E2C] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#5c1622] transition whitespace-nowrap shrink-0"
+          className="hidden lg:block bg-[#7A1E2C] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#5c1622] transition whitespace-nowrap shrink-0"
         >
           Beställ via Purspot, Wolt eller Foodora
         </a>
