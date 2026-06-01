@@ -6,12 +6,12 @@ export default function Navbar() {
 
   return (
     <>
-<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15">        {/* Logo */}
-        <div className="flex items-center shrink-0 w-[110px] sm:w-[130px] lg:w-[150px]">
+<nav className="sticky top-0 z-50 w-full px-4 sm:px-6 lg:px-8 h-[78px] flex items-center justify-between bg-[#FEF6F1]/95 backdrop-blur-md border-b border-[#7A1E2C]/15">        {/* Logo */}
+        <div className="flex items-center shrink-0 w-[72px] sm:w-[84px] lg:w-[92px]">
           <img
             src="/images/nya_npr.png"
             alt="Nya Piccola Rosa"
-            className="h-10 sm:h-11 lg:h-12 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply"
+            className="h-12 sm:h-14 lg:h-16 w-auto object-contain bg-[#FEF6F1] mix-blend-multiply"
           />
         </div>
 
