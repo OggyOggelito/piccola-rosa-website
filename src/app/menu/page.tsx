@@ -169,18 +169,18 @@ const dryckFlask = [
   ];
 const dryckFat = [
   // Fatöl
-  { name: "Fat 21", description: "40cl", price: "53 kr" },
-  { name: "Fat 21", description: "50cl", price: "63 kr" },
-  { name: "Fat 21", description: "60cl", price: "73 kr" },
+  { name: "Fat 21", description: "40cl", price: "53 kr", image: "/images/food_pics/dryck/fat21.png" },
+  { name: "Fat 21", description: "50cl", price: "63 kr", image: "/images/food_pics/dryck/fat21.png" },
+  { name: "Fat 21", description: "60cl", price: "73 kr", image: "/images/food_pics/dryck/fat21.png" },
   
 
-  { name: "Bryggmästaren (Fat)", description: "40cl", price: "58 kr" },
-  { name: "Bryggmästaren (Fat)", description: "50cl", price: "67 kr" },
-  { name: "Bryggmästaren (Fat)", description: "60cl", price: "76 kr" },
+  { name: "Bryggmästaren (Fat)", description: "40cl", price: "58 kr", image: "/images/food_pics/dryck/brygg.png" },
+  { name: "Bryggmästaren (Fat)", description: "50cl", price: "67 kr", image: "/images/food_pics/dryck/brygg.png" },
+  { name: "Bryggmästaren (Fat)", description: "60cl", price: "76 kr", image: "/images/food_pics/dryck/brygg.png" },
 
-  { name: "Zlatopramen", description: "40cl", price: "63 kr" },
-  { name: "Zlatopramen", description: "50cl", price: "73 kr" },
-  { name: "Zlatopramen", description: "60cl", price: "83 kr" },
+  { name: "Zlatopramen", description: "40cl", price: "63 kr", image: "/images/food_pics/dryck/zlatopramen.png" },
+  { name: "Zlatopramen", description: "50cl", price: "73 kr", image: "/images/food_pics/dryck/zlatopramen.png" },
+  { name: "Zlatopramen", description: "60cl", price: "83 kr", image: "/images/food_pics/dryck/zlatopramen.png" },
   ];
   
   // Cider
